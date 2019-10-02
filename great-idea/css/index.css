@@ -174,4 +174,81 @@ footer {
 }
 
 /*Services*/
+.services-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 880px;
+	height: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.services-header h1 {
+	font-size: 200%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.main-content-services {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+    width: 880px;
+    height: auto;
+	border: 2px;
+	border-top-style: solid;
+	border-bottom-style:solid;
+}
+
+.main-content-services div {
+	width: 48%;
+	height: 225px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 1px solid black;
+	padding: 25px;
+	background-color: rgba(211, 211, 211, 0.74);
+
+}
+
+div.service-buttons {
+	background-color: white;
+	border-radius: 5px;
+	width: 150px;
+	height: auto;
+	padding: 10px 30px 10px 30px;
+}
+
+.services-bottom-content {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+	width: 880px;
+	height: auto;
+	margin-top: 25px;
+	margin-bottom: 100px;
+}
+
+.services-bottom-content div {
+	width: 48%;
+}
+.services-bottom-content img {
+	width: 48%;
+	height: 265px;
+}
+
+.service-list {
+	list-style-type: square;
+	list-style-position: inside;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.service-list li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
 
